@@ -1,0 +1,15 @@
+
+div.bola{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gold;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+div.bola.gris{
+    background-color: grey;
+}
