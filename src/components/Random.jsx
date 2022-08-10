@@ -21,13 +21,13 @@ function Random (){
     }
 
 let estilo ={
-    width: '40px',
-    height: '40px',
+    width: '50px',
+    height: '50px',
     display: 'inline-block',
     borderRadius: '100%',
-    backgroundColor: 'gray',
+    backgroundColor: 'gold',
     margin: '5px',
-    lineHeight:'40px',
+    lineHeight:'50px',
     textAlign:'center'
     }
 
