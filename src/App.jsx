@@ -9,7 +9,7 @@ function App() {
   return(
     <>
     <ToDo_list/>
-
+    <br/>
     <Random/>
     </>
   )
