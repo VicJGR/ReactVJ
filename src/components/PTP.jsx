@@ -49,9 +49,9 @@ function PTP (){
     }
     return(
         <>
-        <img style={estilo} id='1' onClick={()=>{setMiOpcion('piedra'),respuestaMaquina()}} src={ipiedra}/>
-        <img style={estilo} id='0' onClick={()=>{setMiOpcion('tijera'),respuestaMaquina()}} src={itijera}/>
-        <img style={estilo} id='2' onClick={()=>{setMiOpcion('papel'),respuestaMaquina()}} src={ipapel}/>
+        <img style={estilo}  onClick={()=>{setMiOpcion('piedra'),respuestaMaquina()}} src={ipiedra}/>
+        <img style={estilo}  onClick={()=>{setMiOpcion('tijera'),respuestaMaquina()}} src={itijera}/>
+        <img style={estilo}  onClick={()=>{setMiOpcion('papel'),respuestaMaquina()}} src={ipapel}/>
 
         <p>{resultado}</p>
         
