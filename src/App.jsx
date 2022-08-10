@@ -8,14 +8,15 @@ function App() {
   const [tarea, setTarea] = useState('')
 
   const nuevaTarea=(e)=>{setTareas([...tareas, tarea])}
-    
- 
-
-    const eliminaTareas=(e)=> setTareas(tareas.splice())
   
 
+    function eliminarTareas(e) { 
+      // esto de aqui abajo es lo me cuesta un poco mas, ar es cualquier cosa, yo lo he querido llamar ar
+      // 
+      let new_array = tareas.filter((ar)=> ar != e) 
+      setTareas(new_array ) 
+    }
 
-  
   console.log('nueva tarea añadida', tarea)
 
   let estilo = {
@@ -24,7 +25,7 @@ function App() {
     width: '200px',
   }
  
-  let listaTareas= tareas.map((e)=><li><div key={tareas.index} style={estilo} onClick={eliminaTareas}>{e}</div></li>)
+  let listaTareas= tareas.map((e,i)=><li><div key={i} style={estilo} onClick={()=>eliminarTareas(e)}>{e}</div></li>)
 
 console.log(tareas)
 
@@ -36,7 +37,10 @@ console.log(tareas)
         <button onClick={nuevaTarea}>Añadir</button>
       </Col>
       <Col>
+      <ul>
+
       {listaTareas}
+      </ul>
       </Col>
      </Row>
     </Container>
