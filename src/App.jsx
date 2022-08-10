@@ -2,12 +2,15 @@
 import {useState} from 'react'
 import {Row, Col, Container} from 'react-bootstrap'
 import ToDo_list from './components/To-Do_list'
+import Random from './components/Random'
 
 function App() {
 
   return(
     <>
     <ToDo_list/>
+
+    <Random/>
     </>
   )
   
