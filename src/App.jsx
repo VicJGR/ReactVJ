@@ -3,6 +3,7 @@ import {useState} from 'react'
 import {Row, Col, Container} from 'react-bootstrap'
 import ToDo_list from './components/To-Do_list'
 import Random from './components/Random'
+import PTP from './components/PTP'
 
 function App() {
 
@@ -11,6 +12,8 @@ function App() {
     <ToDo_list/>
     <br/>
     <Random/>
+    <br/>
+    <PTP/>
     </>
   )
   

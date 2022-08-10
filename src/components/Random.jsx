@@ -9,9 +9,9 @@ function Random (){
 
     
     function calcula(){
-        var valor = Math.floor ( Math.random() * 50 )
-        var valor2 = Math.floor ( Math.random() * 50 )
-        var valor3 = Math.floor ( Math.random() * 50 )
+        let valor = Math.floor ( Math.random() * 50 )
+        let valor2 = Math.floor ( Math.random() * 50 )
+        let valor3 = Math.floor ( Math.random() * 50 )
         setAleatorio(valor)
         setAleatorio2(valor2)
         setAleatorio3(valor3)

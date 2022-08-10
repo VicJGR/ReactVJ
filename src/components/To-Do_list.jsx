@@ -8,7 +8,7 @@ function ToDo_list (){
   
     const nuevaTarea=(e)=>{setTareas([...tareas, tarea])}
     
-  
+      // ESTO ES IMPORTANTE
       function eliminarTareas(e) { 
         // esto de aqui abajo es lo me cuesta un poco mas, ar es cualquier cosa, yo lo he querido llamar ar
         // 
