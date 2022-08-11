@@ -4,6 +4,7 @@ import {Row, Col, Container} from 'react-bootstrap'
 import ToDo_list from './components/To-Do_list'
 import Random from './components/Random'
 import PTP from './components/PTP'
+import Memory from './components/Memory'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
     <Random/>
     <br/>
     <PTP/>
+    <br/>
+    <Memory/>
     </>
   )
   

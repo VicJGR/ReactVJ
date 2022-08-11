@@ -45,7 +45,8 @@ function PTP (){
     let ipapel='https://cdn5.dibujos.net/dibujos/pintar/hoja-de-papel.gif'
     let estilo={
         width:'150px',
-        display:'inline-block'
+        display:'inline-block',
+        margin:'20px'
     }
     return(
         <>
